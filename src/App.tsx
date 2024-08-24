@@ -17,8 +17,8 @@ function App() {
           <Route path="/one" element={ <One /> }/>
           <Route path="/two" element={<Two />} />
           <Route path="/three" element={ <Three />} />
-
           <Route path="*" element={<NotFound />} />
+
         </Route>
       </Routes>
     </BrowserRouter>
