@@ -1,0 +1,86 @@
+#contact {
+  padding: 2rem;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px var(--clr-box-shadow);
+  background: white
+}
+
+#contact h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: var(--clr-text-header);
+  font-size: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--clr-text);
+}
+
+input,
+textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: var(--clr-primary-blue);
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.error {
+  color: var(--clr-primary-red);
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+button[type="submit"] {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--clr-primary-blue);
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  align-self: center;
+}
+
+button[type="submit"]:hover {
+  background-color: var(--clr-primary-blue-hover);
+}
+
+@media (max-width: 768px) {
+  #contact {
+    padding: 1.5rem;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+    padding: 0.75rem;
+  }
+}
