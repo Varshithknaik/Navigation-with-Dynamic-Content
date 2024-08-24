@@ -1,5 +1,5 @@
 
-import "./two.css";
+import "./Two.css";
 
 const Two = () => {
   return (
