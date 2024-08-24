@@ -1,50 +1,42 @@
-# React + TypeScript + Vite
+# Navigation With Dynamic Content
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### **Link to Hosted Site**: [Navigation With Dynamic Content](https://navigation-with-dynamic-content.onrender.com/)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## **Features**
 
-## Expanding the ESLint configuration
+- **Responsive Navigation Bar**: A dynamic navigation bar that adapts to different screen sizes, with a hamburger menu for smaller screens.
+- **Three Main Pages**:
+  - **Home**: Introduces users to the site with a welcome message and a call-to-action button.
+  - **About**: Provides details about the organization, including team member profiles.
+  - **Contact**: Allows users to reach out via a contact form with built-in validation, along with a section displaying contact information.
+- **Custom Hooks**: Utilizes custom React hooks to manage form states and validations efficiently.
+- **404 Not Found Page**: A styled error page that displays when users navigate to an invalid URL.
+- **Responsive Design**: The application is fully responsive, providing an optimal user experience across various devices.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## **Technology Stack**
 
-- Configure the top-level `parserOptions` property like this:
+- **React**: For building the user interface using functional components and hooks.
+- **TypeScript**: Ensures type safety and enhances code quality.
+- **Vite**: A fast build tool and development server that significantly improves the development experience.
+- **CSS**: Custom styles for responsive design and user interface enhancements.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## **Deployment**
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+This application is deployed on [Render](https://render.com/), a cloud platform that simplifies app deployment and hosting. 
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## **How to Use**
+
+- **Navigate** through the app using the navigation bar at the top. Each link will load corresponding content dynamically.
+- **Resize the Browser** to see how the responsive design adapts to different screen sizes.
+- **Fill out the Contact Form** to test the validation logic implemented via custom hooks.
+
+## **Future Enhancements**
+
+- **Enhanced Accessibility**: Adding ARIA labels and improving keyboard navigation.
+- **Additional Pages**: Expanding the site to include more dynamic content and features.
+- **Backend Integration**: Connecting the form to a backend service for real-time data submission.
+
+
+Visit `https://navigation-with-dynamic-content.onrender.com/` in your browser to view the app.
