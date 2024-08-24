@@ -26,17 +26,6 @@
 
 This application is deployed on [Render](https://render.com/), a cloud platform that simplifies app deployment and hosting. 
 
-## **How to Use**
-
-- **Navigate** through the app using the navigation bar at the top. Each link will load corresponding content dynamically.
-- **Resize the Browser** to see how the responsive design adapts to different screen sizes.
-- **Fill out the Contact Form** to test the validation logic implemented via custom hooks.
-
-## **Future Enhancements**
-
-- **Enhanced Accessibility**: Adding ARIA labels and improving keyboard navigation.
-- **Additional Pages**: Expanding the site to include more dynamic content and features.
-- **Backend Integration**: Connecting the form to a backend service for real-time data submission.
 
 
 Visit `https://navigation-with-dynamic-content.onrender.com/` in your browser to view the app.
