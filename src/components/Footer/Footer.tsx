@@ -13,7 +13,7 @@ const Footer = () => {
           <div className="footer-section">
             <h1 className="section-title">Who We Are</h1>
             <div className="section-content">
-              <p>Food Chilli is a registered trademark of IND Company Ltd.</p>
+              <p>Navigate Content is a registered trademark of IND Company Ltd.</p>
               <p><MdLocationOn /> 438 king's Rd</p>
               <p>Bengalore, Karnataka</p>
             </div>
@@ -22,7 +22,7 @@ const Footer = () => {
             <h1 className="section-title">Contact Us</h1>
             <div className="section-content">
               <p><FaPhoneAlt /> 444 444 4444</p>
-              <p><MdOutlinePhoneIphone /> 123 456 7890</p>
+              <p><MdOutlinePhoneIphone /> 123 456 789</p>
               <p><FaEnvelope /> hello@navigatecontent.com</p>
             </div>
           </div>

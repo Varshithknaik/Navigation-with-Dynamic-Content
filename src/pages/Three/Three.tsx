@@ -14,7 +14,7 @@ const Three = () => {
       <ContactForm />
       <div className="contact-info">
         <h2>Our Contact Information</h2>
-        <p>Address: 123 Main St, City, Country</p>
+        <p>Address: 438 king's Rd</p>
         <p>Phone: +123456789</p>
         <p>Email: contact@example.com</p>
       </div>
