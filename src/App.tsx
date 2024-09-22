@@ -6,6 +6,7 @@ import One from './pages/One/One'
 import Two from './pages/Two/Two'
 import Three from './pages/Three/Three'
 import NotFound from './pages/NotFound/NotFound'
+import Hello from './pages/Hello'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
           <Route path="/one" element={ <One /> }/>
           <Route path="/two" element={<Two />} />
           <Route path="/three" element={ <Three />} />
+          <Route path="/hello" element={ <Hello />} />
           <Route path="*" element={<NotFound />} />
 
         </Route>
